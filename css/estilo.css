@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Dream";
+    src: url("font/CaviarDreams_Bold.ttf");
+}
+
+@font-face {
+    font-family: "Milk";
+    src: url("font/Milk\ Cream.otf");
+}
+
+body {
+    width: 100%;
+}
+
+#cabecalho {
+    display: flex;
+    background-color: rgb(184, 203, 224);
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: auto;
+    height: 150px;
+}
+
+#logo {
+    border: 5px white solid;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#imagem_home {
+    border-radius: 10%;
+}
+
+#menu {
+    font-family: "Dream";
+    display: flex;
+    background-color: rgb(202, 219, 240);
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 100px;
+    color: white;
+    list-style: none;
+    font-size: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#conteudo {
+    display: flex;
+    background-image: url("img/fundo.jpeg");
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    height: 600px;
+    font-family: "Dream";
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(59, 112, 156);
+}
+
+#conteudo h2 {
+    display: block;
+    font-size: 30px;
+    justify-content: right;
+}
+
+#conteudo img {
+    border-radius: 20%;
+    border: 5px rgb(202, 219, 240) solid;
+    box-shadow: rgba(24, 40, 83, 0.219) 10px 10px 10px 1px;
+}
+
+#rodape {
+    background-color: rgb(202, 219, 240);
+    width: auto;
+    height: fit-content;
+    padding: 17px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: "Dream";
+}
+
+h1 {
+    font-family: "Dream";
+    text-align: center;
+}
+
+h3 {
+    font-family: "Milk";
+}
